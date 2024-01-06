@@ -76,6 +76,7 @@ nav a{
     font-size: 85px;
     font-weight: 700;
     margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 .banner-grteeting{
@@ -92,7 +93,10 @@ nav a{
 /* header section design end */
 
 /* main section style */
-
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
 
 /* about section style */
 
@@ -101,6 +105,15 @@ nav a{
     background-color: #FFF8F3;
     border-radius: 10px;
     margin: 130px 0px;
+}
+
+.about-info{
+    text-align: center;
+}
+
+.about-info-content{
+    display: flex;
+    justify-content: space-around;
 }
 
 .section-title{
