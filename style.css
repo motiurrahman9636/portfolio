@@ -16,7 +16,6 @@ body{
     padding: 15px 35px;
 }
 
-/* mary style */
 
 /* nav relative style */
 nav{
@@ -27,7 +26,7 @@ nav{
 }
 
 .nav-title{
-    color: #181818;
+color: #181818;
 font-size: 45px;
 font-family: Open Sans;
 font-weight: 800;
@@ -52,13 +51,66 @@ nav a{
 /* hadder design */
 .header{
     background-color: #FFF8F3;
+    background-image: url("../portfolio/images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 .banner{
-    padding: 30px 30px 30px 150px ;
+    padding: 30px 30px 0px 150px ;
     display: flex;
+    justify-content: space-between;
+}
+
+.banner-content{
+    max-width: 500px;
+    
 }
 
 .banner .profile{
     width: 500px;
+}
+
+.banner-title{
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.banner-grteeting{
+    color: #474747;
+    font-size: 45px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.banner-para{
+    margin-top: 0px;
+}
+
+/* header section design end */
+
+/* main section style */
+
+
+/* about section style */
+
+.about{
+    padding: 130px;
+    background-color: #FFF8F3;
+    border-radius: 10px;
+    margin: 130px 0px;
+}
+
+.section-title{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    
+}
+
+.section-para{
+
 }
